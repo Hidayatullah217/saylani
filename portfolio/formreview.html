@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+
+  <style>
+
+    table{
+    margin-left: 28.5rem;  
+    font-size: x-large;
+    color: white;
+    margin-top: 3rem;
+    }
+
+    #step1{
+    background-color: rgba(4, 230, 4, 0.705);
+    }
+
+    #step2{
+    background-color: rgba(0, 0, 255, 0.705);
+    }
+
+    fieldset{
+     width: 580px;
+     margin-left: 28rem;                                    
+     margin-top: 3rem;
+    }
+
+    .review{
+      margin-left: 1rem;
+      /* margin-top: 1rem; */
+    }
+
+      </style>
+</head>
+
+<body>
+
+<form action="" method="get">
+  
+<table>
+  <tr>
+    <td id="step1">Step 1: Account </td>
+    <td id="step1">Step 2: Personal Details</td>
+    <td id="step2">Step 3: Your Review</td>
+  </tr>
+</table>
+
+<fieldset>
+  
+<legend>Your Review</legend> 
+
+<br />
+
+  <label class="review"><b>How did you hear about us ?</b></label>
+    <select name="option">
+
+     <option>Facebook</option>
+     <option>Twitter</option>
+     <option>Instagram</option>
+     <option>Other</option>
+
+    </select>
+    
+<br />
+<br />
+
+   <label class="review"><b>Would you visit again ?</b></label><br />
+   <input class="review" type="radio" name="review" required/>Yes
+   <input class="review" type="radio" name="review" required />No
+   <input class="review" type="radio" name="review" required/>Maybe
+    
+<br /> 
+<br /> 
+
+    <label class="review"><b>Comments:</b></label>
+    <br />
+    <textarea name="comments" id=comments rows="4" cols="20" class="review"></textarea>
+
+<br />
+<br />
+
+
+    <label class="review"><b>Documents</b></label>
+    <br />
+    <input type="file" name="Documents" class="review"/>
+  
+  <br />
+  <br />
+  
+  <input type="checkbox" name="sign in" class="review" /><b>Sign me up for email updates</b> 
+  <br>
+  <br>
+  
+<a class="review" href="formpersonal.html"><img src="img/back.png" width="100px"></a>
+<!-- <input class="review" type="image" src="img/submit.png" width="100px">  -->
+
+<a class="review" href="form.html"><img src="img/submit.png" width="100px"></a>
+
+
+</fieldset>
+</form>
+
+</body>
+
+</html>
