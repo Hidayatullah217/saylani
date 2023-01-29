@@ -1,7 +1,0 @@
-github id
-
-email = kashif1128217@gmail.com
-username = Hidayatullah217
-password = kashif1128217
-
-token code = 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
